@@ -34,7 +34,7 @@ def main():
     # Default dispatcher (this is related to the first bot in settings.DJANGO_TELEGRAMBOT['BOTS'])
     #dp = DjangoTelegramBot.dispatcher
     # To get Dispatcher related to a specific bot
-    dp = DjangoTelegramBot.getDispatcher('1350458579:AAE8iUCgdhVuSKX67qGbOGQFKZ6FDRXdpJ4')     #get by bot token
+    dp = DjangoTelegramBot.getDispatcher('Enter Your Bot Token Here')     #get by bot token
     # dp = DjangoTelegramBot.getDispatcher('BOT_n_username')  #get by bot username
 
     # on different commands - answer in Telegram
